@@ -4,7 +4,7 @@
 import hashlib
 
 # initializing string
-str2hash = "GeeksforGeeks"
+str2hash = input("Enter Data To be Converted :")
 
 # encoding GeeksforGeeks using encode()
 # then sending to md5()
