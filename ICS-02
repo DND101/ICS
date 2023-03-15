@@ -32,8 +32,8 @@ def exor(a,b):
 def BinaryToDecimal(binary):
 	string = int(binary, 2)	
 	return string
-PT = "Hello"
-print("Plain Text is:", PT)
+PT = input("Enter Plain Text :")
+print("Plain Text is :", PT)
 PT_Ascii = [ord(x) for x in PT]
 
 # Converting the ASCII to
@@ -76,7 +76,7 @@ for i in range(0, len(bin_data), 7):
 	decimal_data = BinaryToDecimal(temp_data)
 	str_data = str_data + chr(decimal_data)
 	
-print("Cipher Text:", str_data)
+print("Cipher Text :", str_data)
 
 # Decryption
 L4 = L3
