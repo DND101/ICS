@@ -6,8 +6,8 @@ def gcd(m,n):
     else: 
         return gcd(n,m%n) 
 #input variables
-p = input()
-q = input()
+p = input("Enter Value of P :")
+q = input("Enter Value of Q :")
 no = input()
 #calculate n
 n = p*q 
