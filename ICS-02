@@ -1,3 +1,4 @@
+#fiestal cypher structure
 import binascii
 def rand_key(p):
 	
